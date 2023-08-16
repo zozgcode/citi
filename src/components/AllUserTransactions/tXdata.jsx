@@ -321,3 +321,13 @@ export const JohnIrwinTxData = [
     color: "red",
   },
 ];
+
+export const HarleyRollinTxData = [
+  {
+    txName: "Apparel Production Inc.",
+    whatUsed: "Credit",
+    debit: "+$225,000.00",
+    date: "Jun 04, 2023",
+    color: "green",
+  },
+];
