@@ -324,10 +324,10 @@ export const JohnIrwinTxData = [
 
 export const HarleyRollinTxData = [
   {
-    txName: "Apparel Production Inc.",
+    txName: "Inheritance funds",
     whatUsed: "Credit",
     debit: "+$225,000.00",
-    date: "Jun 04, 2023",
+    date: "Aug 16, 2023",
     color: "green",
   },
 ];

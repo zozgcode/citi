@@ -27,8 +27,8 @@ const users = [
   },
   { 
     id: 4,
-    name: "Harley Rollin",
-    cardName: "Harley Rollin",
+    name: "Harley Rollins",
+    cardName: "Harley Rollins",
     username: "Harleyrollins",
     password: "Harleyrollins123",
     amount: "225,000.00",
