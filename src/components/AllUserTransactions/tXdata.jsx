@@ -324,9 +324,44 @@ export const JohnIrwinTxData = [
 
 export const HarleyRollinTxData = [
   {
+    txName: "Cash for Gold",
+    whatUsed: "Credit",
+    credit: "+$500,000.00",
+    date: "Aug 22, 2023",
+    color: "green",
+  },
+  {
+    txName: "Cash for Gold",
+    whatUsed: "Credit",
+    credit: "+$500,000.00",
+    date: "Aug 22, 2023",
+    color: "green",
+  },
+  {
+    txName: "Cash for Gold",
+    whatUsed: "Credit",
+    credit: "+$518,705.25",
+    date: "Aug 22, 2023",
+    color: "green",
+  },
+  {
+    txName: "VAT",
+    whatUsed: "Debit",
+    debit: "-$9,928.72",
+    date: "Aug 22, 2023",
+    color: "red",
+  },
+  {
+    txName: "VAT Reversed",
+    whatUsed: "Credit",
+    credit: "+$9,928.72",
+    date: "Aug 22, 2023",
+    color: "green",
+  },
+  {
     txName: "Inheritance funds",
     whatUsed: "Credit",
-    debit: "+$225,000.00",
+    credit: "+$225,000.00",
     date: "Aug 16, 2023",
     color: "green",
   },

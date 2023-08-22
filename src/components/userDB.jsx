@@ -31,7 +31,7 @@ const users = [
     cardName: "Harley Rollins",
     username: "Harleyrollins",
     password: "Harleyrollins123",
-    amount: "225,000.00",
+    amount: "1,743,705.25",
   },
   { 
     id: 5,

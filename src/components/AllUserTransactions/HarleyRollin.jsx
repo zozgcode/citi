@@ -14,6 +14,7 @@ export default function HarleyRollin() {
               <div className={style.bottom}>{aTxData.whatUsed}</div>
             </div>
             <div className={`${style.s_box} ${style.s_box_r}`}>
+              <div className={style.top} style={{ color: aTxData.color }}>{aTxData.credit}</div>
               <div className={style.top} style={{ color: aTxData.color }}>{aTxData.debit}</div>
               <div className={style.bottom}>{aTxData.date}</div>
             </div>
