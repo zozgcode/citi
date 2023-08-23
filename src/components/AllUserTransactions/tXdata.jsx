@@ -411,18 +411,18 @@ export const JackThomasLedBetterTxData = [
     color: "green",
   },
   {
-    txName: "VAT",
-    whatUsed: "Debit",
-    debit: "-$9,928.72",
-    date: "Feb 10, 2023",
-    color: "red",
-  },
-  {
     txName: "VAT Reversed",
     whatUsed: "Credit",
     credit: "+$9,928.72",
     date: "Feb 10, 2023",
     color: "green",
+  },
+  {
+    txName: "VAT",
+    whatUsed: "Debit",
+    debit: "-$9,928.72",
+    date: "Feb 10, 2023",
+    color: "red",
   },
   {
     txName: "Inheritance funds",
