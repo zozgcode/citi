@@ -9,6 +9,7 @@ import StephanieSarahJensen from "../AllUserTransactions/StephanieSarahJensen";
 import JohnIrwin from "../AllUserTransactions/JohnIrwin";
 import HarleyRollin from "../AllUserTransactions/HarleyRollin";
 import GeorgeCarrieLilly from "../AllUserTransactions/GeorgeCarrieLilly";
+import JackThomasLedBetter from "../AllUserTransactions/JackThomasLedBetter";
 
 export default function Dashboard() {
   const [shouldShowModal, setShouldShowModal] = useState(false);
@@ -40,7 +41,7 @@ export default function Dashboard() {
       </div>
       <div className="main-account-balance">
         <div className="account_text">
-          <h2>Hi, {user.name}</h2>
+          <h2>Welcome,<br /> {user.name}</h2>
         </div>
         <div className="account-details">
           <h2>Current Balance</h2>
@@ -63,6 +64,7 @@ export default function Dashboard() {
           {user.id === 3 && <JohnIrwin />}
           {user.id === 4 && <HarleyRollin />}
           {user.id === 5 && <GeorgeCarrieLilly />}
+          {user.id === 6 && <JackThomasLedBetter />}
         </div>
       </div>
       {/* <div className="credit_card">
