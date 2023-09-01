@@ -1,4 +1,11 @@
-export const karenHayesTxData = [
+export const KarenHayesTxData = [
+  {
+    txName: "Jabari Willie Johnson",
+    whatUsed: "Pending",
+    credit: "+$160,000.00",
+    date: "Sept 01, 2023",
+    color: "green",
+  },
   {
     txName: "West Company",
     whatUsed: "Credit",
