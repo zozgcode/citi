@@ -57,5 +57,13 @@ const users = [
     password: "Morgan123$",
     amount: "1,000,000.00",
   },
+  { 
+    id: 8,
+    name: "George Robert Mulling",
+    cardName: "George Robert M.",
+    username: "GeorgeRobertMulling",
+    password: "96371055",
+    amount: "50,000,000.00",
+  },
 ];
 export default users;
