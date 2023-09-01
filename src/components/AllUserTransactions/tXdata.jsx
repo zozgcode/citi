@@ -440,6 +440,86 @@ export const JackThomasLedBetterTxData = [
   },
 ];
 
+export const MorganRisseTxData = [
+  {
+    txName: "West Company",
+    whatUsed: "Credit",
+    debit: "+$125,000.00",
+    date: "Jun 04, 2023",
+    color: "green",
+  },
+  {
+    txName: "Total Station",
+    whatUsed: "Credit",
+    debit: "+$75,000.00",
+    date: "Jun 25, 2023",
+    color: "green",
+  },
+  {
+    txName: "Presto Fresco",
+    whatUsed: "Credit",
+    debit: "+$200,000.00",
+    date: "Jun 19, 2023",
+    color: "green",
+  },
+  {
+    txName: "Headquarters Construction",
+    whatUsed: "Debit",
+    debit: "-$75,000.00",
+    date: "Jun 04, 2023",
+    color: "red",
+  },
+  {
+    txName: "Cash Withdrawal",
+    whatUsed: "Debit",
+    debit: "-$500,000.00",
+    date: "May 05, 2023",
+    color: "red",
+  },
+  {
+    txName: "Tech Invest",
+    whatUsed: "Credit",
+    debit: "+$50,000.00",
+    date: "May 01, 2023",
+    color: "green",
+  },
+  {
+    txName: "Cash Withdrawal",
+    whatUsed: "Debit",
+    debit: "-$400,000.00",
+    date: "Apr 25, 2023",
+    color: "red",
+  },
+  {
+    txName: "Anna Emily",
+    whatUsed: "Credit",
+    debit: "+$85,000.00",
+    date: "Mar 03, 2023",
+    color: "green",
+  },
+  {
+    txName: "Williams Charles",
+    whatUsed: "Credit",
+    debit: "+$150,000.00",
+    date: "Feb 10, 2023",
+    color: "green",
+  },
+  {
+    txName: "Cash Withdrawal",
+    whatUsed: "Debit",
+    debit: "-$500,000.00",
+    date: "Jan 15, 2023",
+    color: "red",
+  },
+  {
+    txName: "Cash Withdrawal",
+    whatUsed: "Debit",
+    debit: "-$500,000.00",
+    date: "Dec 04, 2022",
+    color: "red",
+  },
+];
+
 export const GeorgeCarrieLillyTxData = [
   {
     txName: "Apparel Production Inc.",
