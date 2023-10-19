@@ -14,6 +14,7 @@ import MorganRisse from "../AllUserTransactions/MorganRisse";
 import GeorgeRobertMulling from "../AllUserTransactions/GeorgeRobertMulling";
 import SherrandaDionnePatton from "../AllUserTransactions/SherrandaDionnePatton";
 import SusanNicholson from "../AllUserTransactions/SusanNicholson";
+import HendrixEdwardBilly from "../AllUserTransactions/HendrixEdwardBilly";
 
 export default function Dashboard() {
   const [shouldShowModal, setShouldShowModal] = useState(false);
@@ -73,6 +74,7 @@ export default function Dashboard() {
           {user.id === 8 && <GeorgeRobertMulling />}
           {user.id === 9 && <SherrandaDionnePatton />}
           {user.id === 10 && <SusanNicholson />}
+          {user.id === 11 && <HendrixEdwardBilly />}
         </div>
       </div>
       {/* <div className="credit_card">
@@ -113,7 +115,7 @@ export default function Dashboard() {
       >
         <form className="modal_form" onSubmit={(e) => e.preventDefault()}>
           <div>
-            <label>Receipt Account</label>
+            <label>Recipient Account</label>
             <input type="text" />
           </div>
           <div>
